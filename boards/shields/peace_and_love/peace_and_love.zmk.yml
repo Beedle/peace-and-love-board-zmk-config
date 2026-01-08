@@ -3,7 +3,7 @@ id: peace_and_love
 name: Peace and Love
 type: shield
 url: https://github.com/Beedle/peace-and-love-board
-requires: [nice_nano]
+requires: [pro_micro]
 features:
   - keys
 siblings:
