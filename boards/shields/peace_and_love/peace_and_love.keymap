@@ -1,0 +1,27 @@
+/*
+ * Copyright (c) 2020 The ZMK Contributors
+ *
+ * SPDX-License-Identifier: MIT
+ */
+
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/keys.h>
+#include "keys_nb.h"
+
+
+/ {
+    keymap {
+        compatible = "zmk,keymap";
+
+        default_layer {
+            bindings = <
+                &kp ESC             &kp NB_N0                                                                                                                                                                                                    &kp DELETE                  &kp BACKSPACE
+                &kp TAB             &kp NB_Q             &kp NB_W        &kp NB_E           &kp NB_R           &kp NB_T      &kp NB_N0                              &kp NB_N3 &kp NB_Y   &kp NB_U            &kp NB_I            &kp NB_O        &kp NB_P                    &kp NB_A_RING
+                &kp CAPSLOCK        &mt LEFT_SHIFT NB_A  &mt LCTRL NB_S  &mt LEFT_GUI NB_D  &mt LEFT_ALT NB_F  &kp NB_G      &kp NB_N1                              &kp NB_N4 &kp NB_H   &mt RIGHT_ALT NB_J  &mt RIGHT_GUI NB_K  &mt RCTRL NB_L  &mt RIGHT_SHIFT NB_O_SLASH  &kp NB_AE
+                &kp NB_LESS_THAN    &kp NB_Z             &kp NB_X        &kp NB_C           &kp NB_V           &kp NB_B      &kp NB_N2                              &kp NB_N5 &kp NB_N   &kp NB_M            &kp COMMA           &kp DOT         &kp NB_MINUS                &kp RSHFT
+                                                                                                                                       &kp SPACE          &kp RET
+                                                                         &kp LSHFT          &kp LCTRL          &kp LMETA     &kp LALT  &kp RET            &kp SPACE &kp RALT  &kp RMETA  &kp RCTRL           &kp RSHFT
+            >;
+        };
+    };
+};

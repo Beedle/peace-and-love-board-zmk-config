@@ -1,0 +1,7 @@
+# No whitespace after the comma or in your part name!
+config SHIELD_PEACE_AND_LOVE_LEFT
+    def_bool $(shields_list_contains,peace_and_love_left)
+
+# No whitespace after the comma or in your part name!
+config SHIELD_PEACE_AND_LOVE_RIGHT
+    def_bool $(shields_list_contains,peace_and_love_right)

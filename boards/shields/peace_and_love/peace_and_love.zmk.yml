@@ -1,0 +1,11 @@
+file_format: "1"
+id: peace_and_love
+name: Peace and Love
+type: shield
+url: https://github.com/Beedle/peace-and-love-board
+requires: [nice_nano]
+features:
+  - keys
+siblings:
+  - peace_and_love_left
+  - peace_and_love_right
