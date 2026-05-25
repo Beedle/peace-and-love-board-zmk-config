@@ -330,3 +330,34 @@
 
 /* € */
 #define NB_EURO (RA(ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_5_AND_PERCENT)))
+
+
+/* Mac workaround */
+/* $ */
+#define NB_MAC_DOLLAR (RS(NB_N4))
+#define NB_MAC_DLLR (NB_MAC_DOLLAR)
+
+/* ' */
+#define NB_MAC_SINGLE_QUOTE (NB_PIPE)
+#define NB_MAC_SQT (NB_MAC_SINGLE_QUOTE)
+#define NB_MAC_APOSTROPHE (NB_MAC_SINGLE_QUOTE)
+#define NB_MAC_APOS (NB_MAC_SINGLE_QUOTE)
+
+/* { */
+#define NB_MAC_LEFT_BRACE (RS(RA(NB_N8)))
+#define NB_MAC_LBRC (NB_MAC_LEFT_BRACE)
+
+/* } */
+#define NB_MAC_RIGHT_BRACE (&kp RS(RA(NB_N9)))
+#define NB_MAC_RBRC (NB_MAC_RIGHT_BRACE)
+
+/* \ */
+#define NB_MAC_BACKSLASH (RA(RS(NB_N7)))
+#define NB_MAC_BSLH (NB_MAC_BACKSLASH)
+
+/* | */
+#define NB_MAC_PIPE (RA(NB_N7))
+
+/* @ */
+#define NB_MAC_AT_SIGN (NB_STAR)
+#define NB_MAC_AT (NB_MAC_AT_SIGN)
