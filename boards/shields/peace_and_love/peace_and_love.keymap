@@ -22,7 +22,7 @@
         six_three_plus_four_layer {
             if-layers = <3 4>;
             then-layer = <6>;
-        }
+        };
     };
 
     keymap {
