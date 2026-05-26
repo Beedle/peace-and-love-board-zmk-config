@@ -35,6 +35,7 @@
         compatible = "zmk,keymap";
 
         default_layer {
+            display-name = "Base";
             bindings = <
                 &kp ESC             &kp NB_PIPE                                                                                                                                                                                                                                     &kp DELETE                  &kp BACKSPACE
                 &kp TAB             &kp NB_Q            &kp NB_W        &kp NB_E            &kp NB_R            &kp NB_T        &kp NB_LEFT_PARENTHESIS                                 &kp NB_RIGHT_PARENTHESIS &kp NB_Y   &kp NB_U            &kp NB_I            &kp NB_O        &kp NB_P                    &kp NB_A_RING
@@ -46,6 +47,7 @@
         };
 
         one_layer {
+            display-name = "L1";
             bindings = <
                 &trans              &trans                                                                                                                                                                                                                                          &trans                      &trans
                 &trans              &kp NB_CARET        &kp NB_N1       &kp NB_N2           &kp NB_N3           &kp NB_N4       &kp NB_N5                                               &kp NB_N6               &kp NB_N7   &kp NB_N8           &kp NB_N9           &kp NB_N0       &kp NB_CURRENCY_SIGN        &trans
@@ -57,6 +59,7 @@
         };
 
         two_layer {
+            display-name = "R1";
             bindings = <
                 &trans              &trans                                                                                                                                                                                                                                          &trans                      &trans
                 &trans              &kp F1              &kp F2          &kp F3              &kp F4              &kp F5          &kp F6                                                  &kp F7                  &kp F8      &kp F9              &kp F10             &kp F11         &kp F12                     &trans
@@ -68,6 +71,7 @@
         };
 
         three_layer {
+            display-name = "L2";
             bindings = <
                 &trans              &trans                                                                                                                                                                                                                                          &trans                      &trans
                 &trans              &trans              &trans          &trans              &trans              &kp UP          &trans                                                  &trans                  &trans      &trans              &trans              &trans          &trans                      &trans
@@ -79,6 +83,7 @@
         };
 
         four_layer {
+            display-name = "R2";
             bindings = <
                 &trans              &trans                                                                                                                                                                                                                                          &trans                      &trans
                 &trans              &trans              &trans          &trans              &trans              &kp PG_UP       &trans                                                  &kp KP_N7               &kp KP_N8   &kp KP_N9           &kp KP_MINUS        &trans          &trans                      &trans
@@ -90,6 +95,7 @@
         };
 
         five_one_plus_two_layer {
+            display-name = "LR1";
             bindings = <
                 &trans              &trans                                                                                                                                                                                                                                          &trans                      &trans
                 &trans              &trans              &trans          &trans              &kp K_PLAY_PAUSE    &kp K_VOL_UP    &kp K_MUTE                                              &trans                  &trans      &trans              &trans              &trans          &trans                      &trans
@@ -101,6 +107,7 @@
         };
 
         six_three_plus_four_layer {
+            display-name = "LR2";
             bindings = <
                 &bt BT_CLR          &trans                                                                                                                                                                                                                                          &trans                      &trans
                 &bt BT_SEL 0        &bt BT_SEL 1        &bt BT_SEL 2    &bt BT_SEL 3        &bt BT_SEL 4        &kp UP          &trans                                                  &trans                  &trans      &trans              &trans              &trans          &trans                      &trans
