@@ -4,8 +4,8 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: janpfischer
-      url-base: https://github.com/janpfischer
+    - name: englmaxi
+      url-base: https://github.com/englmaxi
     # Additional modules containing boards/shields/custom code can be listed here as well
     # See https://docs.zephyrproject.org/3.2.0/develop/west/manifest.html#projects
   projects:
@@ -13,8 +13,8 @@ manifest:
       remote: zmkfirmware
       revision: v0.3
       import: app/west.yml
-    - name: zmk-dongle-screen
-      remote: janpfischer
-      revision: main
+    - name: zmk-dongle-display
+      remote: englmaxi
+      revision: main # use 'v0.3' instead of 'main' if you use have pinned zmk to 'v0.3' or below
   self:
     path: config
